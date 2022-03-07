@@ -1,0 +1,19 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\DEV\Workspaces\LW\Intellij\target\scala-2.13\intellij_2.13-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Exercise1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\DEV\Workspaces\LW\Intellij\target\scala-2.13\classes\Exercise1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Exercise1\DataProcessor$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\DEV\Workspaces\LW\Intellij\target\scala-2.13\classes\Exercise1\DataProcessor$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Exercise1\DataProcessor.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\DEV\Workspaces\LW\Intellij\target\scala-2.13\classes\Exercise1\DataProcessor.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Exercise1\DateUtils$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\DEV\Workspaces\LW\Intellij\target\scala-2.13\classes\Exercise1\DateUtils$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Exercise1\DateUtils.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\DEV\Workspaces\LW\Intellij\target\scala-2.13\classes\Exercise1\DateUtils.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Exercise1\Exercise1MainApp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\DEV\Workspaces\LW\Intellij\target\scala-2.13\classes\Exercise1\Exercise1MainApp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Exercise1\Exercise1MainApp$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\DEV\Workspaces\LW\Intellij\target\scala-2.13\classes\Exercise1\Exercise1MainApp$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Exercise1\Exercise1MainApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\DEV\Workspaces\LW\Intellij\target\scala-2.13\classes\Exercise1\Exercise1MainApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
