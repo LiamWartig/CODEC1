@@ -5,11 +5,11 @@ import Exercise1.Exercise1MainApp.intArray
 import java.util.{Calendar, Date}
 
 object DateUtils {
-
+  val firstJan2000 = DateUtils.getDate(2000,0,1);
   var year: Int = -1;
   var month: Int = -1;
   var day: Int = -1;
-
+var earliestDate: Date = getDate(0,0,0);
   val invalidMessage = " is illegal";
   var isValid = true;
 
@@ -17,9 +17,18 @@ object DateUtils {
     date1.before(date2) || date1.equals(date2);
   }
 
+  def assignEarlierDate(date1: Date,date2:Date): Date = {
+    if (null == date1) {
+      return date2;
+    }
+    val earlierDate = if (isBeforeOrEqualTo(date2, date1) && firstJan2000.before(date2)) date2
+    else date1;
+    return earlierDate;
+  }
+
   def getDate(intA: Int, intB: Int, intC: Int): Date = {
     var calendar = Calendar.getInstance();
-    calendar.set(intA,intB,intC);
+    calendar.set(intA,intB,intC,0,0,0);
 return calendar.getTime();
   }
 
@@ -43,7 +52,6 @@ return calendar.getTime();
     } ;
 
     if (31 < DateUtils.year  && DateUtils.year < 100) DateUtils.year += 2000;
-    println("year" + DateUtils.year);
 
     return intUsed;
   }
@@ -62,6 +70,11 @@ return calendar.getTime();
     }
   };
 
-
+  var date1: Date = DateUtils.getDate(0,0,0);
+  var date2: Date = DateUtils.getDate(0,0,0);
+  var date3: Date = DateUtils.getDate(0,0,0);
+  var date4: Date = DateUtils.getDate(0,0,0);
+  var date5: Date = DateUtils.getDate(0,0,0);
+  var date6: Date = DateUtils.getDate(0,0,0);
 
 }

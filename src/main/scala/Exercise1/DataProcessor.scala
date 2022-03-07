@@ -17,9 +17,9 @@ object DataProcessor {
     return intArray;
   }
 
-def formatDateIntegers(int: Int){
+def formatDateIntegers(intInput: Int): String = {
   val formatter = new DecimalFormat("00");
-  val formattedInt: String = formatter.format(int)
+  val formattedInt: String = formatter.format(intInput)
 return formattedInt;
 }
 }

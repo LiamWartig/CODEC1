@@ -1,0 +1,19 @@
+
+
+*.class
+
+target/
+
+/.springBeans
+
+/bin
+
+*.log
+IntelliJ/
+*.prefs
+*.zargo~
+.DS_Store
+
+# IntelliJ config files
+*.iml
+*.idea/
