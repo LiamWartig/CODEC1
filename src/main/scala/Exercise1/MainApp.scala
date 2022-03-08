@@ -28,6 +28,11 @@ object MainApp extends App {
       if (intC == intUsed) {
           intC = -1;
       }
+
+    // change to possibleDates: Array[Date] then for each date, use
+    // possibleDates +: getDate ...
+
+
       // intB month
 
        if (intB < 13 && intB > 0 ){
@@ -50,15 +55,31 @@ object MainApp extends App {
         date6 = getDate(if(intA == -1) year else intA+2000,intC,intB);
       }
 
+    // then cycle through array of possible dates
+
     var earliestDate: Date = assignEarlierDate(date1, date2);
     earliestDate = assignEarlierDate(earliestDate,date3);
     earliestDate = assignEarlierDate(earliestDate,date4);
     earliestDate = assignEarlierDate(earliestDate,date5);
     earliestDate = assignEarlierDate(earliestDate,date6);
 
+    println(date1);
+    println(date2);
+    println(date3);
+    println(date4);
+    println(date5);
+    println(date6);
+
+
+
+    // fails here for some dates.
+    // need to perform this check within
+    // the assign earlier date method.
+
     if(null == earliestDate || earliestDate.before(firstJan2000)) {
       returnInvalidDateMessage(intArray(0),intArray(1),intArray(2));
     }
+
     if (isValid) {
       year = earliestDate.getYear + 1900
       month = earliestDate.getMonth + 1
