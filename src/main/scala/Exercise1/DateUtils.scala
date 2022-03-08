@@ -24,7 +24,7 @@ var earliestDate: Date = getDate(0,0,0);
    * @return
    */
   def assignEarlierDate(date1: Date,date2:Date): Date = {
-    if (null == date1) {
+    if (null == date1 || date1.before(firstJan2000)) {
       return date2;
     }
     val earlierDate = if (isBeforeOrEqualTo(date2, date1) && isBeforeOrEqualTo(firstJan2000,date2)) date2
