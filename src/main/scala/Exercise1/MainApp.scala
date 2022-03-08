@@ -5,7 +5,7 @@ import Exercise1.DateUtils.{assignEarlierDate, checkUpperLimits, date1, date2, d
 
 import java.util.Date
 
-object Exercise1MainApp extends App {
+object MainApp extends App {
 
   val intArray = DataProcessor.getIntegers(args);
 

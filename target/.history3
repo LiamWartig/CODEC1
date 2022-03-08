@@ -53,3 +53,9 @@
 1646681566028:run "24/10/1990"
 1646681591745:run "24/10/90"
 1646681632350:run "24/10/0"
+1646743324127:;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/liam.wartig/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "C:/Users/liam.wartig/AppData/Roaming/JetBrains/IdeaIC2021.3/plugins/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2021.3.0/sbt-structure-extractor-2021.3.0.jar" org.jetbrains.sbt.CreateTasks;preferScala2;*/*:dumpStructure
+1646743332691:y
+1646743404118:run "11/11/11"
+1646743451845:run MainApp
+1646743475870:run "11/11/11"
+1646743513629:run "11/11/2"

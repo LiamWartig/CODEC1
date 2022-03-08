@@ -1,6 +1,6 @@
 package Exercise1
 
-import Exercise1.Exercise1MainApp.intArray
+import Exercise1.MainApp.intArray
 
 import java.util.{Calendar, Date}
 

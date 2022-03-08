@@ -1,6 +1,6 @@
 package Exercise1
 
-import Exercise1.Exercise1MainApp.{args, intArray}
+import Exercise1.MainApp.{args, intArray}
 import java.text.DecimalFormat
 
 object DataProcessor {
