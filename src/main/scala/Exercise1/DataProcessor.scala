@@ -6,6 +6,12 @@ import java.text.DecimalFormat
 object DataProcessor {
   val inputS = "Input String: ";
 
+  /**
+   * Takes the string input, divides it into three parts,
+   * and returns an array of the three contained integers
+   * @param input the string input of "/" - delimited integers
+   * @return array of integers
+   */
   def getIntegers(input: Array[String]):  Array[Int]  = {
     val inputString = input.mkString
     println(inputS + inputString);
@@ -17,9 +23,15 @@ object DataProcessor {
     return intArray;
   }
 
-def formatDateIntegers(intInput: Int): String = {
-  val formatter = new DecimalFormat("00");
-  val formattedInt: String = formatter.format(intInput)
-return formattedInt;
-}
+  /**
+   * formats the day and month integers to be returned in the form "MM"and"DD"
+   * @param intInput
+   * @return
+   */
+  def formatDateIntegers(intInput: Int): String = {
+    val formatter = new DecimalFormat("00");
+    val formattedInt: String = formatter.format(intInput)
+    return formattedInt;
+  }
+
 }

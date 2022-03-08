@@ -31,23 +31,23 @@ object Exercise1MainApp extends App {
       // intB month
 
        if (intB < 13 && intB > 0 ){
-         date1 = getDate(if (intC == -1) year else intC+2000,intB-1,intA);
-         date2 = getDate(if(intA == -1) year else intA+2000,intB-1,intC);
+         date1 = getDate(if (intC == -1) year else intC+2000,intB,intA);
+         date2 = getDate(if(intA == -1) year else intA+2000,intB,intC);
       }
 
 
     // intA month
 
       if (intA < 13 && intA > 0){
-        date3 = getDate(if(intB == -1) year else intB+2000,intA-1,intC);
-        date4 = getDate(if(intC == -1) year else intC+2000,intA-1,intB);
+        date3 = getDate(if(intB == -1) year else intB+2000,intA,intC);
+        date4 = getDate(if(intC == -1) year else intC+2000,intA,intB);
       }
 
       // intC month
 
       if (intC < 13 && intC > 0){
-        date5 = getDate(if(intB == -1) year else intB+2000,intC-1,intA);
-        date6 = getDate(if(intA == -1) year else intA+2000,intC-1,intB);
+        date5 = getDate(if(intB == -1) year else intB+2000,intC,intA);
+        date6 = getDate(if(intA == -1) year else intA+2000,intC,intB);
       }
 
     var earliestDate: Date = assignEarlierDate(date1, date2);
